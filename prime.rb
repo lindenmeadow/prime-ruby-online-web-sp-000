@@ -14,7 +14,5 @@ def prime?(num)
     end
     i += 6
   end
-  unless num < 0
-    return true
-  end
+  return true
 end
