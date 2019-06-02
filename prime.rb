@@ -2,12 +2,10 @@
 def prime?(num)
   if num < 2
     false
-  if num == 2 || num == 3
+  elsif num == 2 || num == 3
     true
-  if num % 2 == 0
-    false
-  if num % 3 == 0
-    false
+  elsif num % 2 == 0 || num % 3 == 0
+    true
   end
   i = 5
   w = 2
