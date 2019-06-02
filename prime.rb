@@ -5,7 +5,7 @@ def prime?(num)
   elsif num == 2 || num == 3
     true
   elsif num % 2 == 0 || num % 3 == 0
-    true
+    false
   end
   i = 5
   while i * i <= num
