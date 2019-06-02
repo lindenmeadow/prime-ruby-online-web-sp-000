@@ -7,6 +7,6 @@ def prime?(n)
   if  n % 2 == 0 || n % 3 == 0
     false
   i = 5
-  
-  
+
+
 end
