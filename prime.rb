@@ -14,5 +14,3 @@ def prime?(n)
     true
   end
 end
-end
-end
