@@ -4,9 +4,8 @@ def prime?(num)
     false
   elsif num == 2 || num == 3
     true
-  elsif (2...n-1).any?{|i| n % i == 0}
-    false
-  else
-    true
-  end
+  elsif (2..n-1).to_a.all? do |integer|
+     n % integer != 0
+     end
+    end
 end
