@@ -10,4 +10,5 @@ def prime?(integer)
     elsif integer.odd? && integer % integer == 0
       true
     end
+  end
 end
