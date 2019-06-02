@@ -13,6 +13,6 @@ def prime?(num)
       return false
     end
     i += 6
-  return true
   end
+  return true
 end
