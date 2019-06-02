@@ -16,6 +16,5 @@ def prime?(num)
     end
     i += w
     w = 6 - w
-  return true
   end
 end
