@@ -1,4 +1,8 @@
 # Add  code here!
 def prime?(num)
-  return num <= 3 || (num + 1) % 6 == 0 || (num - 1) % 6 == 0
+  if num <= 3 || (num + 1) % 6 == 0 || (num - 1) % 6 == 0
+    return true
+  else 
+    return false
+  end
 end
