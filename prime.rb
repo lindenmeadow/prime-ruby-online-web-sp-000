@@ -13,5 +13,5 @@ def prime?(n)
     i += 6
     true
   end
-  
+
 end
