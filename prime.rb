@@ -18,3 +18,4 @@ def prime?(num)
     w = 6 - w
   end
 end
+end
