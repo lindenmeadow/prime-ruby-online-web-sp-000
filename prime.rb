@@ -4,9 +4,17 @@ def prime?(num)
     false
   elsif num == 2 || num == 3
     true
-  elsif (num + 1) % 6 == 0 || (num - 1) % 6 == 0
-    true
-  else
+  elsif num % 2 == 0 || num % 3 == 0
     false
   end
+
+  i = 5
+  w = 2
+  while i * i <= num
+    if num % i == 0
+      false
+    i += w
+    w = 6 - w
+  return true
+end
 end
