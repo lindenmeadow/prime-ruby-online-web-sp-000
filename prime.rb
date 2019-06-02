@@ -1,10 +1,10 @@
 # Add  code here!
 def prime?(num)
-  if num <= 1
-    false
-  elsif num == 2 || num == 3
+  return false if num <= 1
+  
+  return true elsif num == 2 || num == 3
     true
-  elsif (2...nnum - 1).any?{|i| num % i == 0}
+  if (2...num - 1).any? {|i| num % i == 0}
     false
   else
     true
