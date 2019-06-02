@@ -7,9 +7,9 @@ def prime?(integer)
   elsif integer > 3
     if integer.even?
       false
-    elsif integer.odd? && integer % integer == 0 && integer % 1 == 0
+    elsif integer.odd? && integer % integer == 0 && integer % 1 == 0 && integer % 3 != 0
       true
-    else
+    elsif 
       false
     end
   end
