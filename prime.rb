@@ -8,7 +8,6 @@ def prime?(num)
     true
   end
   i = 5
-  w = 2
   while i * i <= num
     if num % i == 0
       false
