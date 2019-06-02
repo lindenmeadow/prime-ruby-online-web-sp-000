@@ -9,10 +9,8 @@ def prime?(num)
   end
   i = 5
   while i * i <= num
-    if num % i == 0
-      false
-    end
-    i += w
-    w = 6 - w
-  end
+    if num % i == 0 || num % (i + 2) == 0 return false
+    i += 6
+  return true
+end
 end
