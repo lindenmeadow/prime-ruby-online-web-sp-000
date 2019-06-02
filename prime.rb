@@ -2,18 +2,18 @@
 def prime?(num)
   if num < 2
     false
-  elsif num == 2 || num == 3
+  if num == 2 || num == 3
     true
-  elsif num % 2 == 0 || num % 3 == 0
+  if num % 2 == 0 
     false
-  end
+  if num % 3 == 0
+    false
 
   i = 5
   w = 2
   while i * i <= num
     if num % i == 0
       false
-    end
     i += w
     w = 6 - w
   end
