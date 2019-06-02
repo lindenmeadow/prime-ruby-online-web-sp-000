@@ -9,7 +9,7 @@ def prime?(integer)
       false
     elsif integer.odd? && integer % integer == 0 && integer % 1 == 0
       true
-    else 
+    else
       false
     end
   end
