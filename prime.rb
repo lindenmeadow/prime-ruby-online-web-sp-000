@@ -1,8 +1,11 @@
 # Add  code here!
 def prime?(integer)
-  if integer > 0 && integer > 1 && integer % integer == 0 && integer % 1 == 0
-    return true
-  else
+  if integer <= 1
     return false
-  end
+  elsif 
+    for i in range(2, integer)
+      if integer % i == 0
+        return false
+  else
+    return true
 end
