@@ -4,15 +4,9 @@ def prime?(num)
     false
   elsif num == 2 || num == 3
     true
-  elsif num % 2 == 0 || num % 3 == 0
+  elsif (2...n-1).any?{|i| n % i == 0}
     false
+  else
+    true
   end
-  i = 5
-  while i * i <= num
-    if (num % i == 0) || (num % (i + 2) == 0)
-      return false
-    end
-    i += 6
-  end
-  return true
 end
