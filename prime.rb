@@ -8,7 +8,7 @@ def prime?(num)
     false
   if num % 3 == 0
     false
-
+  end
   i = 5
   w = 2
   while i * i <= num
